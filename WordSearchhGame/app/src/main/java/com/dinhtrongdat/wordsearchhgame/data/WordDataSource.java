@@ -1,6 +1,6 @@
 package com.dinhtrongdat.wordsearchhgame.data;
 
-import com.aar.app.wordsearch.model.Word;
+import com.dinhtrongdat.wordsearchhgame.model.Word;
 
 import java.util.List;
 

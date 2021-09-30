@@ -2,13 +2,9 @@ package com.dinhtrongdat.wordsearchhgame;
 
 import android.app.Application;
 
-import com.aar.app.wordsearch.di.component.AppComponent;
-import com.aar.app.wordsearch.di.component.DaggerAppComponent;
-import com.aar.app.wordsearch.di.modules.AppModule;
+import com.dinhtrongdat.wordsearchhgame.di.component.AppComponent;
+import com.dinhtrongdat.wordsearchhgame.di.modules.AppModule;
 
-/**
- * Created by abdularis on 18/07/17.
- */
 
 public class WordSearchApp extends Application {
 

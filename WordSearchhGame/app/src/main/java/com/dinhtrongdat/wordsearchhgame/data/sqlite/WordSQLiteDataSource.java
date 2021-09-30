@@ -3,17 +3,14 @@ package com.dinhtrongdat.wordsearchhgame.data.sqlite;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.aar.app.wordsearch.data.WordDataSource;
-import com.aar.app.wordsearch.model.Word;
+import com.dinhtrongdat.wordsearchhgame.data.WordDataSource;
+import com.dinhtrongdat.wordsearchhgame.model.Word;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Inject;
 
-/**
- * Created by abdularis on 18/07/17.
- */
 
 public class WordSQLiteDataSource implements WordDataSource {
 

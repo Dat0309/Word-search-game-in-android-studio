@@ -1,12 +1,8 @@
 package com.dinhtrongdat.wordsearchhgame.features.gameplay;
 
-import com.aar.app.wordsearch.commons.Mapper;
-import com.aar.app.wordsearch.model.UsedWord;
-import com.aar.app.wordsearch.custom.StreakView;
 
-/**
- * Created by abdularis on 09/07/17.
- */
+import com.dinhtrongdat.wordsearchhgame.custom.StreakView;
+import com.dinhtrongdat.wordsearchhgame.model.UsedWord;
 
 public class StreakLineMapper extends Mapper<UsedWord.AnswerLine, StreakView.StreakLine> {
     @Override

@@ -3,9 +3,10 @@ package com.dinhtrongdat.wordsearchhgame.features;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 
-import com.aar.app.wordsearch.features.mainmenu.MainMenuActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.dinhtrongdat.wordsearchhgame.features.mainmenu.MainMenuActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {
     @Override

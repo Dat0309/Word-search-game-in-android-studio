@@ -3,22 +3,23 @@ package com.dinhtrongdat.wordsearchhgame.features.mainmenu;
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.aar.app.wordsearch.R;
-import com.aar.app.wordsearch.features.ViewModelFactory;
-import com.aar.app.wordsearch.WordSearchApp;
-import com.aar.app.wordsearch.features.FullscreenActivity;
-import com.aar.app.wordsearch.features.gamehistory.GameHistoryActivity;
-import com.aar.app.wordsearch.features.gameplay.GamePlayActivity;
-import com.aar.app.wordsearch.model.GameTheme;
-import com.aar.app.wordsearch.easyadapter.MultiTypeAdapter;
-import com.aar.app.wordsearch.features.settings.SettingsActivity;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.dinhtrongdat.wordsearchhgame.R;
+import com.dinhtrongdat.wordsearchhgame.WordSearchApp;
+import com.dinhtrongdat.wordsearchhgame.easyadapter.MultiTypeAdapter;
+import com.dinhtrongdat.wordsearchhgame.features.FullscreenActivity;
+import com.dinhtrongdat.wordsearchhgame.features.ViewModelFactory;
+import com.dinhtrongdat.wordsearchhgame.features.gamehistory.GameHistoryActivity;
+import com.dinhtrongdat.wordsearchhgame.features.gameplay.GamePlayActivity;
+import com.dinhtrongdat.wordsearchhgame.features.settings.SettingsActivity;
+import com.dinhtrongdat.wordsearchhgame.model.GameTheme;
 
 import java.util.List;
 
@@ -31,7 +32,8 @@ import butterknife.OnClick;
 
 public class MainMenuActivity extends FullscreenActivity {
 
-    @BindView(R.id.rv) RecyclerView mRv;
+    @BindView(R.id.rv)
+    RecyclerView mRv;
     @BindView(R.id.game_template_spinner) Spinner mGridSizeSpinner;
 
     @BindArray(R.array.game_round_dimension_values)

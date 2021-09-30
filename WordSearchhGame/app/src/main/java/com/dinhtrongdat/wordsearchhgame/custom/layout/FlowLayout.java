@@ -6,15 +6,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.aar.app.wordsearch.R;
+import com.dinhtrongdat.wordsearchhgame.R;
 
-
-/**
- * Created by abdularis on 24/06/17.
- *
- * FlowLayout meletakan content secara horizontal dan wrap secara vertical
- * ketika tidak ada lagi space horizontal
- */
 
 public class FlowLayout extends ViewGroup {
 

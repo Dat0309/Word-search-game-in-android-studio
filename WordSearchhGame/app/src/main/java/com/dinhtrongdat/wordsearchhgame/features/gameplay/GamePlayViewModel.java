@@ -5,16 +5,16 @@ import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 
-import com.aar.app.wordsearch.commons.SingleLiveEvent;
-import com.aar.app.wordsearch.commons.Timer;
-import com.aar.app.wordsearch.data.GameDataSource;
-import com.aar.app.wordsearch.data.entity.GameDataMapper;
-import com.aar.app.wordsearch.data.WordDataSource;
-import com.aar.app.wordsearch.model.GameData;
-import com.aar.app.wordsearch.model.UsedWord;
-import com.aar.app.wordsearch.model.Word;
+import com.dinhtrongdat.wordsearchhgame.commons.SingleLiveEvent;
+import com.dinhtrongdat.wordsearchhgame.data.GameDataSource;
+import com.dinhtrongdat.wordsearchhgame.data.WordDataSource;
+import com.dinhtrongdat.wordsearchhgame.data.entity.GameDataMapper;
+import com.dinhtrongdat.wordsearchhgame.model.GameData;
+import com.dinhtrongdat.wordsearchhgame.model.UsedWord;
+import com.dinhtrongdat.wordsearchhgame.model.Word;
 
 import java.util.List;
+import java.util.Timer;
 
 import io.reactivex.Observable;
 import io.reactivex.ObservableOnSubscribe;

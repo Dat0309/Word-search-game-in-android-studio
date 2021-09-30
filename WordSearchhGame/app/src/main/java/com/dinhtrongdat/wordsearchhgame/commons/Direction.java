@@ -1,10 +1,5 @@
 package com.dinhtrongdat.wordsearchhgame.commons;
 
-/**
- * Created by abdularis on 29/06/17.
- *
- * Direction (Arah)
- */
 
 public enum Direction {
     NONE(0, 0),

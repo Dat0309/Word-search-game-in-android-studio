@@ -1,15 +1,10 @@
 package com.dinhtrongdat.wordsearchhgame.data.entity;
 
 
-import com.aar.app.wordsearch.commons.Mapper;
-import com.aar.app.wordsearch.commons.generator.StringGridGenerator;
-import com.aar.app.wordsearch.data.entity.GameDataEntity;
-import com.aar.app.wordsearch.model.GameData;
-import com.aar.app.wordsearch.model.Grid;
-
-/**
- * Created by abdularis on 08/07/17.
- */
+import com.dinhtrongdat.wordsearchhgame.commons.Mapper;
+import com.dinhtrongdat.wordsearchhgame.commons.generator.StringGridGenerator;
+import com.dinhtrongdat.wordsearchhgame.model.GameData;
+import com.dinhtrongdat.wordsearchhgame.model.Grid;
 
 public class GameDataMapper extends Mapper<GameDataEntity, GameData> {
     @Override

@@ -2,9 +2,6 @@ package com.dinhtrongdat.wordsearchhgame.commons;
 
 import java.util.Locale;
 
-/**
- * Created by abdularis on 19/07/17.
- */
 
 public abstract class DurationFormatter {
 

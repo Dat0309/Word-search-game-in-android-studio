@@ -12,19 +12,19 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.TextView;
 
-import com.aar.app.wordsearch.R;
-import com.aar.app.wordsearch.features.SoundPlayer;
-import com.aar.app.wordsearch.features.ViewModelFactory;
-import com.aar.app.wordsearch.WordSearchApp;
-import com.aar.app.wordsearch.commons.DurationFormatter;
-import com.aar.app.wordsearch.commons.Util;
-import com.aar.app.wordsearch.model.GameData;
-import com.aar.app.wordsearch.custom.LetterBoard;
-import com.aar.app.wordsearch.custom.StreakView;
-import com.aar.app.wordsearch.custom.layout.FlowLayout;
-import com.aar.app.wordsearch.features.gameover.GameOverActivity;
-import com.aar.app.wordsearch.features.FullscreenActivity;
-import com.aar.app.wordsearch.model.UsedWord;
+import com.dinhtrongdat.wordsearchhgame.R;
+import com.dinhtrongdat.wordsearchhgame.WordSearchApp;
+import com.dinhtrongdat.wordsearchhgame.commons.DurationFormatter;
+import com.dinhtrongdat.wordsearchhgame.commons.Util;
+import com.dinhtrongdat.wordsearchhgame.custom.LetterBoard;
+import com.dinhtrongdat.wordsearchhgame.custom.StreakView;
+import com.dinhtrongdat.wordsearchhgame.custom.layout.FlowLayout;
+import com.dinhtrongdat.wordsearchhgame.features.FullscreenActivity;
+import com.dinhtrongdat.wordsearchhgame.features.SoundPlayer;
+import com.dinhtrongdat.wordsearchhgame.features.ViewModelFactory;
+import com.dinhtrongdat.wordsearchhgame.features.gameover.GameOverActivity;
+import com.dinhtrongdat.wordsearchhgame.model.GameData;
+import com.dinhtrongdat.wordsearchhgame.model.UsedWord;
 
 import java.util.List;
 
@@ -48,12 +48,15 @@ public class GamePlayActivity extends FullscreenActivity {
     @Inject
     SoundPlayer mSoundPlayer;
 
-    @Inject ViewModelFactory mViewModelFactory;
+    @Inject
+    ViewModelFactory mViewModelFactory;
     private GamePlayViewModel mViewModel;
 
     @BindView(R.id.text_duration) TextView mTextDuration;
-    @BindView(R.id.letter_board) LetterBoard mLetterBoard;
-    @BindView(R.id.flow_layout) FlowLayout mFlowLayout;
+    @BindView(R.id.letter_board)
+    LetterBoard mLetterBoard;
+    @BindView(R.id.flow_layout)
+    FlowLayout mFlowLayout;
 
     @BindView(R.id.text_sel_layout) View mTextSelLayout;
     @BindView(R.id.text_selection) TextView mTextSelection;
@@ -217,12 +220,6 @@ public class GamePlayActivity extends FullscreenActivity {
         if (getPreferences().autoScaleGrid() || boardWidth > screenWidth) {
             float scale = (float)screenWidth / (float)boardWidth;
             mLetterBoard.scale(scale, scale);
-//            mLetterBoard.animate()
-//                    .scaleX(scale)
-//                    .scaleY(scale)
-//                    .setDuration(400)
-//                    .setInterpolator(new DecelerateInterpolator())
-//                    .start();
         }
     }
 

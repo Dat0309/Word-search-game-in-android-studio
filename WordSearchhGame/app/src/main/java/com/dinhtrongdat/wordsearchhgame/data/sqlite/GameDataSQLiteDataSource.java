@@ -4,19 +4,16 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.aar.app.wordsearch.data.entity.GameDataEntity;
-import com.aar.app.wordsearch.data.GameDataSource;
-import com.aar.app.wordsearch.model.GameDataInfo;
-import com.aar.app.wordsearch.model.UsedWord;
+import com.dinhtrongdat.wordsearchhgame.data.GameDataSource;
+import com.dinhtrongdat.wordsearchhgame.data.entity.GameDataEntity;
+import com.dinhtrongdat.wordsearchhgame.model.GameDataInfo;
+import com.dinhtrongdat.wordsearchhgame.model.UsedWord;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Inject;
 
-/**
- * Created by abdularis on 18/07/17.
- */
 
 public class GameDataSQLiteDataSource implements GameDataSource {
 

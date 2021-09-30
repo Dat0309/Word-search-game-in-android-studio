@@ -1,12 +1,12 @@
 package com.dinhtrongdat.wordsearchhgame.features.gameplay;
 
 
-import com.aar.app.wordsearch.commons.Util;
-import com.aar.app.wordsearch.commons.generator.StringListGridGenerator;
-import com.aar.app.wordsearch.model.GameData;
-import com.aar.app.wordsearch.model.Grid;
-import com.aar.app.wordsearch.model.UsedWord;
-import com.aar.app.wordsearch.model.Word;
+import com.dinhtrongdat.wordsearchhgame.commons.Util;
+import com.dinhtrongdat.wordsearchhgame.commons.generator.StringListGridGenerator;
+import com.dinhtrongdat.wordsearchhgame.model.GameData;
+import com.dinhtrongdat.wordsearchhgame.model.Grid;
+import com.dinhtrongdat.wordsearchhgame.model.UsedWord;
+import com.dinhtrongdat.wordsearchhgame.model.Word;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -14,10 +14,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-
-/**
- * Created by abdularis on 20/07/17.
- */
 
 public class GameDataCreator {
 

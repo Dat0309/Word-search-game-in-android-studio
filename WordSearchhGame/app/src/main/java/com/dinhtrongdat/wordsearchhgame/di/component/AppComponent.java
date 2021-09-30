@@ -1,12 +1,12 @@
 package com.dinhtrongdat.wordsearchhgame.di.component;
 
-import com.aar.app.wordsearch.di.modules.AppModule;
-import com.aar.app.wordsearch.di.modules.DataSourceModule;
-import com.aar.app.wordsearch.features.FullscreenActivity;
-import com.aar.app.wordsearch.features.gamehistory.GameHistoryActivity;
-import com.aar.app.wordsearch.features.gameover.GameOverActivity;
-import com.aar.app.wordsearch.features.gameplay.GamePlayActivity;
-import com.aar.app.wordsearch.features.mainmenu.MainMenuActivity;
+import com.dinhtrongdat.wordsearchhgame.di.modules.AppModule;
+import com.dinhtrongdat.wordsearchhgame.di.modules.DataSourceModule;
+import com.dinhtrongdat.wordsearchhgame.features.FullscreenActivity;
+import com.dinhtrongdat.wordsearchhgame.features.gamehistory.GameHistoryActivity;
+import com.dinhtrongdat.wordsearchhgame.features.gameover.GameOverActivity;
+import com.dinhtrongdat.wordsearchhgame.features.gameplay.GamePlayActivity;
+import com.dinhtrongdat.wordsearchhgame.features.mainmenu.MainMenuActivity;
 
 import javax.inject.Singleton;
 

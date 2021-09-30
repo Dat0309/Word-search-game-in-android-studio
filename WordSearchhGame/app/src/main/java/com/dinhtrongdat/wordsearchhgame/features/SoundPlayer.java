@@ -5,14 +5,11 @@ import android.media.AudioManager;
 import android.media.SoundPool;
 import android.util.SparseIntArray;
 
-import com.aar.app.wordsearch.R;
-import com.aar.app.wordsearch.features.settings.Preferences;
+import com.dinhtrongdat.wordsearchhgame.R;
+import com.dinhtrongdat.wordsearchhgame.features.settings.Preferences;
 
 import javax.inject.Inject;
 
-/**
- * Created by abdularis on 22/07/17.
- */
 
 public class SoundPlayer {
 

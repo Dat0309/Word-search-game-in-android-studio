@@ -4,8 +4,8 @@ import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 
-import com.aar.app.wordsearch.data.GameThemeRepository;
-import com.aar.app.wordsearch.model.GameTheme;
+import com.dinhtrongdat.wordsearchhgame.data.GameThemeRepository;
+import com.dinhtrongdat.wordsearchhgame.model.GameTheme;
 
 import java.util.List;
 

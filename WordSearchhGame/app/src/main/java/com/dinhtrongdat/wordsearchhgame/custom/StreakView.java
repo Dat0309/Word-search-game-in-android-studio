@@ -11,18 +11,14 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.aar.app.wordsearch.R;
-import com.aar.app.wordsearch.commons.GridIndex;
-import com.aar.app.wordsearch.commons.math.Vec2;
+
+import com.dinhtrongdat.wordsearchhgame.R;
+import com.dinhtrongdat.wordsearchhgame.commons.GridIndex;
+import com.dinhtrongdat.wordsearchhgame.commons.math.Vec2;
 
 import java.util.List;
 import java.util.Stack;
 
-/**
- * Created by abdularis on 20/06/17.
- *
- * Garis yang bisa didrag (coretan didalam word search game)
- */
 
 public class StreakView extends View {
 

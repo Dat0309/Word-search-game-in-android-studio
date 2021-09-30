@@ -3,14 +3,12 @@ package com.dinhtrongdat.wordsearchhgame.features.settings;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.aar.app.wordsearch.R;
-import com.aar.app.wordsearch.custom.StreakView;
+
+import com.dinhtrongdat.wordsearchhgame.R;
+import com.dinhtrongdat.wordsearchhgame.custom.StreakView;
 
 import javax.inject.Inject;
 
-/**
- * Created by abdularis on 19/07/17.
- */
 
 public class Preferences {
     private static String KEY_SHOW_GRID_LINE;

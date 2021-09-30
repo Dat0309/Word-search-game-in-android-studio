@@ -6,11 +6,11 @@ import android.graphics.Color;
 import android.util.AttributeSet;
 import android.view.ViewGroup;
 
-import com.aar.app.wordsearch.R;
-import com.aar.app.wordsearch.commons.Direction;
-import com.aar.app.wordsearch.commons.GridIndex;
-import com.aar.app.wordsearch.commons.Util;
-import com.aar.app.wordsearch.custom.layout.CenterLayout;
+import com.dinhtrongdat.wordsearchhgame.R;
+import com.dinhtrongdat.wordsearchhgame.commons.Direction;
+import com.dinhtrongdat.wordsearchhgame.commons.GridIndex;
+import com.dinhtrongdat.wordsearchhgame.commons.Util;
+import com.dinhtrongdat.wordsearchhgame.custom.layout.CenterLayout;
 
 import java.util.List;
 import java.util.Observable;

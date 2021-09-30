@@ -2,20 +2,18 @@ package com.dinhtrongdat.wordsearchhgame.di.modules;
 
 import android.content.Context;
 
-import com.aar.app.wordsearch.data.sqlite.DbHelper;
-import com.aar.app.wordsearch.data.sqlite.GameDataSQLiteDataSource;
-import com.aar.app.wordsearch.data.xml.WordXmlDataSource;
-import com.aar.app.wordsearch.data.GameDataSource;
-import com.aar.app.wordsearch.data.WordDataSource;
+
+import com.dinhtrongdat.wordsearchhgame.data.GameDataSource;
+import com.dinhtrongdat.wordsearchhgame.data.WordDataSource;
+import com.dinhtrongdat.wordsearchhgame.data.sqlite.DbHelper;
+import com.dinhtrongdat.wordsearchhgame.data.sqlite.GameDataSQLiteDataSource;
+import com.dinhtrongdat.wordsearchhgame.data.xml.WordXmlDataSource;
 
 import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
 
-/**
- * Created by abdularis on 18/07/17.
- */
 
 @Module
 public class DataSourceModule {

@@ -1,13 +1,11 @@
 package com.dinhtrongdat.wordsearchhgame.model;
 
-import com.aar.app.wordsearch.commons.Util;
+
+import com.dinhtrongdat.wordsearchhgame.commons.Util;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by abdularis on 08/07/17.
- */
 
 public class GameData {
 

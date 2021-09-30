@@ -9,16 +9,12 @@ import android.graphics.Rect;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 
-import com.aar.app.wordsearch.R;
+
+import com.dinhtrongdat.wordsearchhgame.R;
 
 import java.util.Observable;
 import java.util.Observer;
 
-/**
- * Created by abdularis on 22/06/17.
- *
- * Render grid of letters
- */
 
 public class LetterGrid extends GridBehavior implements Observer {
 

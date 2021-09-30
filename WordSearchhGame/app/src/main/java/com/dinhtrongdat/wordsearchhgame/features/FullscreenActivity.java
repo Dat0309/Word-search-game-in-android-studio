@@ -4,21 +4,18 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.aar.app.wordsearch.R;
-import com.aar.app.wordsearch.WordSearchApp;
-import com.aar.app.wordsearch.features.settings.Preferences;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.dinhtrongdat.wordsearchhgame.R;
+import com.dinhtrongdat.wordsearchhgame.WordSearchApp;
+import com.dinhtrongdat.wordsearchhgame.features.settings.Preferences;
 
 import javax.inject.Inject;
 
-/**
- * Created by abdularis on 21/04/17.
- *
- * Extend this class to make a fullscreen activity
- */
 
 @SuppressLint("Registered")
 public class FullscreenActivity extends AppCompatActivity {

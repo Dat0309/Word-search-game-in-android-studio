@@ -1,8 +1,5 @@
 package com.dinhtrongdat.wordsearchhgame.model;
 
-/**
- * Created by abdularis on 08/07/17.
- */
 
 public class UsedWord extends Word {
 

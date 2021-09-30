@@ -6,13 +6,8 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.aar.app.wordsearch.R;
+import com.dinhtrongdat.wordsearchhgame.R;
 
-/**
- * Created by abdularis on 22/06/17.
- *
- * Base class untuk semua class yang memiliki karakteristik seperti grid
- */
 
 public abstract class GridBehavior extends View {
 
@@ -41,42 +36,18 @@ public abstract class GridBehavior extends View {
 
     public abstract int getRowCount();
 
-    /**
-     * Return lebar minimum yang dibutuhkan, yg didapatkan dari jumlah dan lebar grid
-     *
-     * @return lebar grid view yang dibutuhkan
-     */
     public int getRequiredWidth() {
         return getPaddingLeft() + getPaddingRight() + (getColCount() * getGridWidth());
     }
 
-
-    /**
-     * Return tinggi minimum yang dibutuhkan, yg didapatkan dari jumlah dan tinggi grid
-     *
-     * @return tinggi grid view yng dibutuhkan
-     */
     public int getRequiredHeight() {
         return getPaddingTop() + getPaddingBottom() + (getRowCount() * getGridHeight());
     }
 
-    /**
-     * Return column index grid pada posisi layar tertentu
-     *
-     * @param screenPos posisi pada layar relative terhadap view ini.
-     * @return index column, dimana column >= 0 dan column < jumlah horizontal grid - 1
-     */
     public int getColIndex(int screenPos) {
         return Math.max( Math.min((screenPos - getPaddingLeft()) / getGridWidth(), getColCount() - 1), 0 );
     }
 
-
-    /**
-     * Return row index grid pada posisi layar tertentu
-     *
-     * @param screenPos posisi pada layar relative terhadap view ini.
-     * @return index row, dimana row >= 0 dan row < jumlah vertical grid - 1
-     */
     public int getRowIndex(int screenPos) {
         return Math.max( Math.min((screenPos - getPaddingTop()) / getGridHeight(), getRowCount() - 1), 0 );
     }

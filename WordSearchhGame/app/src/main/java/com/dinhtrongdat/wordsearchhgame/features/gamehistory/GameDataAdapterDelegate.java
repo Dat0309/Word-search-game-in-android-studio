@@ -1,16 +1,18 @@
 package com.dinhtrongdat.wordsearchhgame.features.gamehistory;
 
 import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.aar.app.wordsearch.R;
-import com.aar.app.wordsearch.commons.DurationFormatter;
-import com.aar.app.wordsearch.model.GameDataInfo;
-import com.aar.app.wordsearch.easyadapter.AdapterDelegate;
+
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.dinhtrongdat.wordsearchhgame.R;
+import com.dinhtrongdat.wordsearchhgame.commons.DurationFormatter;
+import com.dinhtrongdat.wordsearchhgame.easyadapter.AdapterDelegate;
+import com.dinhtrongdat.wordsearchhgame.model.GameDataInfo;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

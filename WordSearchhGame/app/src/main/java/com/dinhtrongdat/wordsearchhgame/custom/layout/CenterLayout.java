@@ -5,12 +5,6 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by abdularis on 22/06/17.
- *
- * Center layout merupakan layout untuk membuat semua child view berada ditengah-tengah
- * relative terhadap posisi CenterLayout object
- */
 
 public class CenterLayout extends ViewGroup {
 

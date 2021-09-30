@@ -5,23 +5,20 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.aar.app.wordsearch.features.ViewModelFactory;
-import com.aar.app.wordsearch.data.GameDataSource;
-import com.aar.app.wordsearch.data.GameThemeRepository;
-import com.aar.app.wordsearch.data.WordDataSource;
-import com.aar.app.wordsearch.features.gamehistory.GameHistoryViewModel;
-import com.aar.app.wordsearch.features.gameover.GameOverViewModel;
-import com.aar.app.wordsearch.features.gameplay.GamePlayViewModel;
-import com.aar.app.wordsearch.features.mainmenu.MainMenuViewModel;
+import com.dinhtrongdat.wordsearchhgame.data.GameDataSource;
+import com.dinhtrongdat.wordsearchhgame.data.GameThemeRepository;
+import com.dinhtrongdat.wordsearchhgame.data.WordDataSource;
+import com.dinhtrongdat.wordsearchhgame.features.ViewModelFactory;
+import com.dinhtrongdat.wordsearchhgame.features.gamehistory.GameHistoryViewModel;
+import com.dinhtrongdat.wordsearchhgame.features.gameover.GameOverViewModel;
+import com.dinhtrongdat.wordsearchhgame.features.gameplay.GamePlayViewModel;
+import com.dinhtrongdat.wordsearchhgame.features.mainmenu.MainMenuViewModel;
 
 import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
 
-/**
- * Created by abdularis on 18/07/17.
- */
 
 @Module
 public class AppModule {

@@ -1,8 +1,8 @@
 package com.dinhtrongdat.wordsearchhgame.data;
 
-import com.aar.app.wordsearch.data.entity.GameDataEntity;
-import com.aar.app.wordsearch.model.GameDataInfo;
-import com.aar.app.wordsearch.model.UsedWord;
+import com.dinhtrongdat.wordsearchhgame.data.entity.GameDataEntity;
+import com.dinhtrongdat.wordsearchhgame.model.GameDataInfo;
+import com.dinhtrongdat.wordsearchhgame.model.UsedWord;
 
 import java.util.List;
 

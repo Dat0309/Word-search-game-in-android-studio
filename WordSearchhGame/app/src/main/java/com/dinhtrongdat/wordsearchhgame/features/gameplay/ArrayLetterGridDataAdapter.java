@@ -1,10 +1,7 @@
 package com.dinhtrongdat.wordsearchhgame.features.gameplay;
 
-import com.aar.app.wordsearch.custom.LetterGridDataAdapter;
 
-/**
- * Created by abdularis on 09/07/17.
- */
+import com.dinhtrongdat.wordsearchhgame.custom.LetterGridDataAdapter;
 
 public class ArrayLetterGridDataAdapter extends LetterGridDataAdapter {
 

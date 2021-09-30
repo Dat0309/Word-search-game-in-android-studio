@@ -1,10 +1,5 @@
 package com.dinhtrongdat.wordsearchhgame.custom;
 
-/**
- * Created by abdularis on 28/06/17.
- *
- * Sample data adapter (for preview in android studio visual editor)
- */
 
 final class SampleLetterGridDataAdapter extends LetterGridDataAdapter {
 

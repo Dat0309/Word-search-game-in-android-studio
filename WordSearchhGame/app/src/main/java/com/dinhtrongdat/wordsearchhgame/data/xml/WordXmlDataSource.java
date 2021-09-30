@@ -3,8 +3,8 @@ package com.dinhtrongdat.wordsearchhgame.data.xml;
 import android.content.Context;
 import android.content.res.AssetManager;
 
-import com.aar.app.wordsearch.data.WordDataSource;
-import com.aar.app.wordsearch.model.Word;
+import com.dinhtrongdat.wordsearchhgame.data.WordDataSource;
+import com.dinhtrongdat.wordsearchhgame.model.Word;
 
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;

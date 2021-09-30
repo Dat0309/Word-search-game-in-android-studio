@@ -3,11 +3,6 @@ package com.dinhtrongdat.wordsearchhgame.commons;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by abdularis on 08/07/17.
- *
- * Base class for type mapper
- */
 
 public abstract class Mapper<From, To> {
 

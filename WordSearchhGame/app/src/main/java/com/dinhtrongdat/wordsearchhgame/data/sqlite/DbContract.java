@@ -2,9 +2,6 @@ package com.dinhtrongdat.wordsearchhgame.data.sqlite;
 
 import android.provider.BaseColumns;
 
-/**
- * Created by abdularis on 18/07/17.
- */
 
 abstract class DbContract {
 

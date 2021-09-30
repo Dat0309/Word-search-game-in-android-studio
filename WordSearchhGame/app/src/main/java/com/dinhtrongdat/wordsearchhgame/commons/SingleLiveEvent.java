@@ -8,9 +8,6 @@ import android.support.annotation.NonNull;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-/**
- * Created by abdularis on 17/11/17.
- */
 
 public class SingleLiveEvent<T> extends MutableLiveData<T> {
 

@@ -2,9 +2,6 @@ package com.dinhtrongdat.wordsearchhgame.custom;
 
 import java.util.Observable;
 
-/**
- * Created by abdularis on 26/06/17.
- */
 
 public abstract class LetterGridDataAdapter extends Observable {
 

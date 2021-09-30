@@ -1,13 +1,10 @@
 package com.dinhtrongdat.wordsearchhgame.data.entity;
 
-import com.aar.app.wordsearch.model.GameData;
-import com.aar.app.wordsearch.model.UsedWord;
+
+import com.dinhtrongdat.wordsearchhgame.model.UsedWord;
 
 import java.util.List;
 
-/**
- * Created by abdularis on 08/07/17.
- */
 
 public class GameDataEntity {
 

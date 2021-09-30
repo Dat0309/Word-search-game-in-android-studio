@@ -1,8 +1,5 @@
 package com.dinhtrongdat.wordsearchhgame.commons;
 
-/**
- * Created by abdularis on 29/06/17.
- */
 
 public class GridIndex {
 

@@ -8,12 +8,10 @@ import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 
-import com.aar.app.wordsearch.R;
+import com.dinhtrongdat.wordsearchhgame.R;
+
 
 /**
- * Created by abdularis on 22/06/17.
- *
- * Digunakan untuk merender grid line
  *  ____________
  * |   |   |   |
  * |---|---|---|

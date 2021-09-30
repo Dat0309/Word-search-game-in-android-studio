@@ -4,10 +4,11 @@ import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 import android.support.annotation.NonNull;
 
-import com.aar.app.wordsearch.features.gamehistory.GameHistoryViewModel;
-import com.aar.app.wordsearch.features.gameover.GameOverViewModel;
-import com.aar.app.wordsearch.features.gameplay.GamePlayViewModel;
-import com.aar.app.wordsearch.features.mainmenu.MainMenuViewModel;
+import com.dinhtrongdat.wordsearchhgame.features.gamehistory.GameHistoryViewModel;
+import com.dinhtrongdat.wordsearchhgame.features.gameover.GameOverViewModel;
+import com.dinhtrongdat.wordsearchhgame.features.gameplay.GamePlayViewModel;
+import com.dinhtrongdat.wordsearchhgame.features.mainmenu.MainMenuViewModel;
+
 
 public class ViewModelFactory implements ViewModelProvider.Factory {
 

@@ -6,12 +6,13 @@ import android.support.v4.app.NavUtils;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.aar.app.wordsearch.R;
-import com.aar.app.wordsearch.features.ViewModelFactory;
-import com.aar.app.wordsearch.WordSearchApp;
-import com.aar.app.wordsearch.commons.DurationFormatter;
-import com.aar.app.wordsearch.model.GameDataInfo;
-import com.aar.app.wordsearch.features.FullscreenActivity;
+
+import com.dinhtrongdat.wordsearchhgame.R;
+import com.dinhtrongdat.wordsearchhgame.WordSearchApp;
+import com.dinhtrongdat.wordsearchhgame.commons.DurationFormatter;
+import com.dinhtrongdat.wordsearchhgame.features.FullscreenActivity;
+import com.dinhtrongdat.wordsearchhgame.features.ViewModelFactory;
+import com.dinhtrongdat.wordsearchhgame.model.GameDataInfo;
 
 import javax.inject.Inject;
 

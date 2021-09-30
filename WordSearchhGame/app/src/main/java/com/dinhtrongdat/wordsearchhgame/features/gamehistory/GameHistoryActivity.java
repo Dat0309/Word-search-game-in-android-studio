@@ -3,18 +3,20 @@ package com.dinhtrongdat.wordsearchhgame.features.gamehistory;
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
-import com.aar.app.wordsearch.R;
-import com.aar.app.wordsearch.WordSearchApp;
-import com.aar.app.wordsearch.easyadapter.MultiTypeAdapter;
-import com.aar.app.wordsearch.features.FullscreenActivity;
-import com.aar.app.wordsearch.features.ViewModelFactory;
-import com.aar.app.wordsearch.features.gameplay.GamePlayActivity;
-import com.aar.app.wordsearch.model.GameDataInfo;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.dinhtrongdat.wordsearchhgame.R;
+import com.dinhtrongdat.wordsearchhgame.WordSearchApp;
+import com.dinhtrongdat.wordsearchhgame.easyadapter.MultiTypeAdapter;
+import com.dinhtrongdat.wordsearchhgame.features.FullscreenActivity;
+import com.dinhtrongdat.wordsearchhgame.features.ViewModelFactory;
+import com.dinhtrongdat.wordsearchhgame.features.gameplay.GamePlayActivity;
+import com.dinhtrongdat.wordsearchhgame.model.GameDataInfo;
 
 import java.util.List;
 
