@@ -14,8 +14,6 @@
             android:name=".features.settings.SettingsActivity"
             android:theme="@style/AppTheme">
         </activity>
-        <activity android:name=".features.gameplay.GamePlayActivity">
-        </activity>
         <activity android:name=".features.mainmenu.MainMenuActivity">
         </activity>
         <activity android:name=".features.gameover.GameOverActivity">

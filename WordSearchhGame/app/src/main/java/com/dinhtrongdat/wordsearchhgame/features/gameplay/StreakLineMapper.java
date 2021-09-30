@@ -1,6 +1,7 @@
 package com.dinhtrongdat.wordsearchhgame.features.gameplay;
 
 
+import com.dinhtrongdat.wordsearchhgame.commons.Mapper;
 import com.dinhtrongdat.wordsearchhgame.custom.StreakView;
 import com.dinhtrongdat.wordsearchhgame.model.UsedWord;
 

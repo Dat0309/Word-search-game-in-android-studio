@@ -8,10 +8,10 @@ import android.support.annotation.Nullable;
 import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toolbar;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.appcompat.widget.Toolbar;
 
 public class AppCompatPreferenceActivity extends PreferenceActivity {
 

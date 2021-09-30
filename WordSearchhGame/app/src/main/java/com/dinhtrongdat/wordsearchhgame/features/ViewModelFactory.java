@@ -12,10 +12,10 @@ import com.dinhtrongdat.wordsearchhgame.features.mainmenu.MainMenuViewModel;
 
 public class ViewModelFactory implements ViewModelProvider.Factory {
 
-    private GameOverViewModel mGameOverViewModel;
-    private GamePlayViewModel mGamePlayViewModel;
-    private MainMenuViewModel mMainMenuViewModel;
-    private GameHistoryViewModel mGameHistoryViewModel;
+    private final GameOverViewModel mGameOverViewModel;
+    private final GamePlayViewModel mGamePlayViewModel;
+    private final MainMenuViewModel mMainMenuViewModel;
+    private final GameHistoryViewModel mGameHistoryViewModel;
 
     public ViewModelFactory(GameOverViewModel gameOverViewModel,
                             GamePlayViewModel gamePlayViewModel,

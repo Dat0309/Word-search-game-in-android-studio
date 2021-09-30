@@ -3,6 +3,7 @@ package com.dinhtrongdat.wordsearchhgame;
 import android.app.Application;
 
 import com.dinhtrongdat.wordsearchhgame.di.component.AppComponent;
+import com.dinhtrongdat.wordsearchhgame.di.component.DaggerAppComponent;
 import com.dinhtrongdat.wordsearchhgame.di.modules.AppModule;
 
 

@@ -1,9 +1,10 @@
 package com.dinhtrongdat.wordsearchhgame.features.settings;
 
-import android.app.ActionBar;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.MenuItem;
+
+import androidx.appcompat.app.ActionBar;
 
 import com.dinhtrongdat.wordsearchhgame.R;
 

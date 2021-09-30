@@ -12,6 +12,7 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.TextView;
 
+
 import com.dinhtrongdat.wordsearchhgame.R;
 import com.dinhtrongdat.wordsearchhgame.WordSearchApp;
 import com.dinhtrongdat.wordsearchhgame.commons.DurationFormatter;
@@ -220,6 +221,12 @@ public class GamePlayActivity extends FullscreenActivity {
         if (getPreferences().autoScaleGrid() || boardWidth > screenWidth) {
             float scale = (float)screenWidth / (float)boardWidth;
             mLetterBoard.scale(scale, scale);
+//            mLetterBoard.animate()
+//                    .scaleX(scale)
+//                    .scaleY(scale)
+//                    .setDuration(400)
+//                    .setInterpolator(new DecelerateInterpolator())
+//                    .start();
         }
     }
 

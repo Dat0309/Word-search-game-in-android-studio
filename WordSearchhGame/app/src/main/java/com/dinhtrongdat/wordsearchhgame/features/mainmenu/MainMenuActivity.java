@@ -1,5 +1,6 @@
 package com.dinhtrongdat.wordsearchhgame.features.mainmenu;
 
+import android.arch.lifecycle.LifecycleOwner;
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.os.Bundle;
@@ -53,7 +54,7 @@ public class MainMenuActivity extends FullscreenActivity {
         ((WordSearchApp) getApplication()).getAppComponent().inject(this);
 
         mViewModel = ViewModelProviders.of(this, mViewModelFactory).get(MainMenuViewModel.class);
-        mViewModel.getOnGameThemeLoaded().observe(this, this::showGameThemeList);
+        mViewModel.getOnGameThemeLoaded().observe((LifecycleOwner) this, this::showGameThemeList);
 
 
         mAdapter = new MultiTypeAdapter();

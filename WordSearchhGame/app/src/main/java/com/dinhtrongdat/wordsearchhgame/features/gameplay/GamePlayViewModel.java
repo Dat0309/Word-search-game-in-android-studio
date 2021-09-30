@@ -6,6 +6,7 @@ import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 
 import com.dinhtrongdat.wordsearchhgame.commons.SingleLiveEvent;
+import com.dinhtrongdat.wordsearchhgame.commons.Timer;
 import com.dinhtrongdat.wordsearchhgame.data.GameDataSource;
 import com.dinhtrongdat.wordsearchhgame.data.WordDataSource;
 import com.dinhtrongdat.wordsearchhgame.data.entity.GameDataMapper;
@@ -14,7 +15,6 @@ import com.dinhtrongdat.wordsearchhgame.model.UsedWord;
 import com.dinhtrongdat.wordsearchhgame.model.Word;
 
 import java.util.List;
-import java.util.Timer;
 
 import io.reactivex.Observable;
 import io.reactivex.ObservableOnSubscribe;
